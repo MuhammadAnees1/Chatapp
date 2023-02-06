@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chat App</string>
+    <string name="Switch">Switch app to Login Or SignUp</string>
+    <string name="text">Log In</string>
+    <string name="number">Password</string>
+    <string name="number_1">Re-type Password</string>
+    <string name="click_button">Login</string>
+    <string name="name_5">Email</string>
+    <string name="next_page">Sign up</string>
+    <string name="other_page">Login Here</string>
+    <string name="enter_name">Email</string>
+    <string name="sign">Create Account.Or SigUp</string>
+    <string name="register">Register</string>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:background="@drawable/background"
+        tools:context=".Login"
+        tools:ignore="InvalidId">
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:text="@string/text"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="username"
+        android:hint="@string/enter_name"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        tools:ignore="ObsoleteLayoutParam,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/userpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/number"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        tools:ignore="ObsoleteLayoutParam,TextFields,VisualLintTextFieldSize"
+        android:autofillHints="" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/button"
+        tools:ignore="ObsoleteLayoutParam" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userpassword"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/click_button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="ObsoleteLayoutParam,VisualLintButtonSize" />
+
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="128dp"
+        android:text="@string/sign"
+        android:textColor="#E1BEE7"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateSpeakableTextCheck,ObsoleteLayoutParam,TextSizeCheck,VisualLintButtonSize" />
+
+
+</LinearLayout>
