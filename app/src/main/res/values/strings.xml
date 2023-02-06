@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Chat App</string>
+    <string name="app_name">Chat Application</string>
     <string name="Switch">Switch app to Login Or SignUp</string>
     <string name="text">Log In</string>
     <string name="number">Password</string>
